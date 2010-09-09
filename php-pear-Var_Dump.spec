@@ -2,8 +2,8 @@
 %define		upstream_name	%{_class}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.3
-Release:	%mkrel 6
+Version:	1.0.4
+Release:	%mkrel 1
 Summary:	Methods for dumping information about a variable
 License:	PHP License
 Group:		Development/PHP
@@ -63,6 +63,7 @@ fi
 %files
 %defattr(-,root,root)
 %doc %{upstream_name}-%{version}/docs/*
+%{_bindir}/gen_php_doc.sh
 %{_datadir}/pear/*.php
 %{_datadir}/pear/%{upstream_name}
 %{_datadir}/pear/data/%{upstream_name}
