@@ -3,7 +3,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.4
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Methods for dumping information about a variable
 License:	PHP License
 Group:		Development/PHP
