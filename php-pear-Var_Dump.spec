@@ -46,4 +46,7 @@ install -m 644 %{modname}.xml %{buildroot}%{_datadir}/pear/packages
 %{_datadir}/pear/%{modname}
 %{_datadir}/pear/data/%{modname}
 %{_datadir}/pear/packages/%{modname}.xml
+%{_datadir}/pear/doc/Var_Dump/example*
+%{_datadir}/pear/test/Var_Dump/*
+
 
