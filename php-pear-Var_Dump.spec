@@ -4,11 +4,11 @@
 Summary:	Methods for dumping information about a variable
 Name:		php-pear-%{modname}
 Version:	1.0.4
-Release:	14
+Release:	15
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Var_Dump/
-Source0:	http://download.pear.php.net/package/%{modname}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/%{modname}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	php-pear
 Requires(post,preun):	php-pear
