@@ -7,7 +7,7 @@ Version:	1.0.4
 Release:	16
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/Var_Dump/
+Url:		https://pear.php.net/package/Var_Dump/
 Source0:	http://download.pear.php.net/package/%{modname}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	php-pear
